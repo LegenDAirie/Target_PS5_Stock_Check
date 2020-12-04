@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Check for PS5 stock at Target",
+  "version": "0.1",
+  "web_accessible_resources": [
+    "Lyn-Life-Will-Change-trimmed.wav"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+      "https://www.target.com/p/playstation-5-console/-/A-81114595"
+    ],
+      "js": ["content.js"]
+    }
+  ]
+}
